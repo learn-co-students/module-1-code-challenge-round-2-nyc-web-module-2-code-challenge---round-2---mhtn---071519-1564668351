@@ -36,7 +36,7 @@ Congratulations! You've just been hired to work on a special project for JFK Air
   - should know all of its `passengers`
   - `Plane#total_passengers` should return the total number of passengers for all of the plane's flights
 
-  *_When you have completed your app_ you will need to answer the questions below to help out any new developers joining your team:*
+  _When you have completed your app you will need to answer the questions below to help out any new developers joining your team:_
 
   ## Which tables have foreign keys? 
 
