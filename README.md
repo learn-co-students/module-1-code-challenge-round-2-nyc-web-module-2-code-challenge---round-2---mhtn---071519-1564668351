@@ -38,8 +38,8 @@ Congratulations! You've just been hired to work on a special project for JFK Air
 
   *_When you have completed your app_ you will need to answer the questions below to help out any new developers joining your team:*
 
-  # Which tables have foreign keys? 
+  ## Which tables have foreign keys? 
 
-  # What happens when I call `Passenger#flights`? 
+  ## What happens when I call `Passenger#flights`? 
 
-  # What gives us the ability to call the `Passenger#flights` method? 
+  ## What gives us the ability to call the `Passenger#flights` method? 
