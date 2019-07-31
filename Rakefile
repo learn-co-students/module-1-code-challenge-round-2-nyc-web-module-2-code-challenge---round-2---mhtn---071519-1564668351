@@ -7,7 +7,3 @@ desc "Start our app console"
   task :console do
     Pry.start
   end
-
-# task :something do 
-#   puts "IDK what I want to do here"
-# end
