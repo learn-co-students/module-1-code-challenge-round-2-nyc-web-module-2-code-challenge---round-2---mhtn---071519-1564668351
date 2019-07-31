@@ -11,7 +11,7 @@ Congratulations! You've just been hired to work on a special project for JFK Air
 
 *If you have properly completed the app you should be able to run `rake db:seed` without error. IF you run `rake db:seed` now it will give you an error. It is your job to create the establish the proper models and relationships so that your app should be able to do the following:*
 
-- Flight:
+Flight:
   Flight#duration
     - returns the flight's duration as an integer
   Flight#origin
@@ -27,9 +27,7 @@ Congratulations! You've just been hired to work on a special project for JFK Air
   Flight#total_passengers
     - returns the total sum of number of passengers associated with the flight as an integer
 
-
-
-- Passenger
+Passenger:
   Passenger#name
     - returns the passenger's name as a string
   Passenger#flights
@@ -43,7 +41,7 @@ Congratulations! You've just been hired to work on a special project for JFK Air
   Passenger#total_flight_time
     - returns the total sum of the duration for each flight associated with the passenger as an integer 
 
-- Plane
+Plane:
   Plane#name
     - returns the planes's name as a string
   Plane#num_of_seats
@@ -55,13 +53,16 @@ Congratulations! You've just been hired to work on a special project for JFK Air
   Plane#total_passengers
     returns the total sum of number of passengers associated with this plane as an integer 
 
-  *When you have completed your app you will need to answer the questions below to help out any new developers joining your team:*
+  *When you have completed your app you will need to answer the questions below to help out any new developers joining your team. Please write a short response answering in your own words*
 
   Which tables have foreign keys?
     Answer Here:
 
-  What happens when I call `Passenger#flights`?
+  What gives us the ability to call the `Passenger#flights` method? 
     Answer Here:
 
-  What gives us the ability to call the `Passenger#flights` method?    
+  When would you need a join table?
+    Answer Here:
+
+  What is the join table in this application?
     Answer Here:
