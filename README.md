@@ -85,16 +85,16 @@ Plane:
 
   Which tables have foreign keys?
   
-    Answer Here:
+    Answer Here: The join table will have foreign keys, and in this case, the flight is the join between the plane and the passenger 
 
   What gives us the ability to call the `Passenger#flights` method? 
   
-    Answer Here:
+    Answer Here: We are able to call that method because flights belongs to passengers and passenger is one of the foreign keys of flights, so they are connected 
 
   When would you need a join table?
   
-    Answer Here:
+    Answer Here: You would need a join table when you want all of your data in the same database, because you want access to the data in the other models, so you use a join table to connect the different models, and gain access to their information/data
 
   What is the join table in this application?
   
-    Answer Here:
+    Answer Here: The join table in this application is flight. The plane and the passenger do not know about each out until there is a flight, then the plane and the passenger are connected. 
