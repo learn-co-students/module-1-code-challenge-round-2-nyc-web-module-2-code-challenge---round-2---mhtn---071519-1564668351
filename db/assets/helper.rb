@@ -32,13 +32,4 @@ f3 = Flight.create(duration: 2, origin: "Rome", destination: "Florence", plane: 
 f4 = Flight.create(duration: 6, origin: "Los Angeles", destination: "New York", plane:pl4 )
 f5 = Flight.create(duration: 8, origin: "New York", destination: "Los Angeles", plane: pl5)
 
-Ticket.create(flight: f1, passenger: p1)
-Ticket.create(flight: f2, passenger: p2)
-Ticket.create(flight: f3, passenger: p3)
-Ticket.create(flight: f4, passenger: p1)
-Ticket.create(flight: f5, passenger: p1)
-Ticket.create(flight: f1, passenger: p2)
-Ticket.create(flight: f2, passenger: p3)
-Ticket.create(flight: f3, passenger: p2)
-Ticket.create(flight: f4, passenger: p2)
 end
