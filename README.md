@@ -85,16 +85,16 @@ Plane:
 
   Which tables have foreign keys?
   
-    Answer Here:
+    Answer Here: The <flights> table will have a foreign key of a plane id. And the JOIN table <tickets> will have foreign key attributes of 2 connecting tables - <flights> table and <passengers> table.
 
   What gives us the ability to call the `Passenger#flights` method? 
   
-    Answer Here:
+    Answer Here: ActiveRecord provides the ability to call this method through relationships/assosiations that we established for our models. ActiveRecord is a Ruby gem, that provieds the binding and interface between tables in a relational database and the Ruby program code to manipulate the database objects.
 
   When would you need a join table?
   
-    Answer Here:
+    Answer Here: The JOIN table is needed when we have one Ruby object instance that can relate to one ore more instances of the second object, and in return our second object can relate to one or more instances of the first object. This is called "many-to-many" relationship and the way we establish this connection is by adding the macros of has_many/has_many, through to our parent tables and belongs_to (both parent tables) to our JOIN model. The JOIN table provides the connection between two parent tables to hold both their instances. 
 
   What is the join table in this application?
   
-    Answer Here:
+    Answer Here: The JOIN table in this application is <tickets>, it provides the connection between our <flights> table and <passengers> table. 
