@@ -87,14 +87,20 @@ Plane:
   
     Answer Here:
 
+   - The flights table would have foreign keys.
+   - The foreign keys for the flights table are passenger_id and plane_id
+
   What gives us the ability to call the `Passenger#flights` method? 
   
     Answer Here:
+    - Active Record gives us the ability to call the Passenger#flights method.
 
   When would you need a join table?
   
     Answer Here:
+    - When you have a many to many relationship, you want to see what is causing that relationship and map out the connections. You need to connect the objects, and there has to be something that brings them together. You want to see what is the joining factor to the different models. In this case - passenger and plane by themselves cannot do anything, but once each is assigned a flight, they will have a relation/connection with the other.
 
   What is the join table in this application?
   
     Answer Here:
+    - The flights is the join table to this application.

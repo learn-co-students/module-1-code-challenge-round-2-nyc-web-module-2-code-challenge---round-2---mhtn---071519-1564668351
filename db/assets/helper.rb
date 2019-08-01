@@ -1,6 +1,3 @@
-
-
-
 def seed
   
   # PLANES = %w(Boeing Airbus Jet Learjet 23 Eclipse 500).map{|i| i.to_s}
