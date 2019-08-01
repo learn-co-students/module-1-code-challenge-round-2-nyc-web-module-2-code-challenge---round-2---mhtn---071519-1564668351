@@ -4,4 +4,8 @@ class CreatePassengers < ActiveRecord::Migration[5.2]
       t.string :name
     end
   end
+
+  def name
+    Passengers.all.name
+  end
 end
