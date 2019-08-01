@@ -9,7 +9,7 @@ To Start:
 Congratulations! You've just been hired to work on a special project for JFK Airport. The previous developer began building an app that would keep track of flights, passengers, and planes. However, before they were able to finish, they quit to join Newark Airport. Your task is to review the existing code (including existing models and migrations) and do what's neccessary to make the app work.
 
 
-*If you have properly completed the app you should be able to run `rake db:seed` without error. IF you run `rake db:seed` now it will give you an error. It is your job to create the establish the proper models and relationships so that your app should be able to do the following:*
+*If you have properly completed the app you should be able to run `rake db:seed` without error. Remember the app is not complete. IF you run `rake db:seed` right now it will give you an error. It is your job to read the given code and make any necessary changes to establish the proper database, models, and relationships so that your app is be able to do the following:*
 
 Flight:
   Flight#duration
