@@ -12,8 +12,6 @@ Congratulations! You've just been hired to work on a special project for JFK Air
 
 *Remember the app is currently not complete. It is your job to read the given code and make any necessary changes to establish the proper database, models, and relationships. A Flight belongs to a Plane, a Flight has many Passengers, and a Passenger has many Flights. If your app is complete it will be able to do the following deliverables*
 
-Deliverables: 
-
 Flight: 
 - has a duration
 - has a destination
