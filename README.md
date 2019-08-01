@@ -18,6 +18,7 @@ Flight:
 - has an origin
 - belongs to Plane
 - has many Passengers
+
   `Flight#duration`
     - returns the flight's duration as an integer
   `Flight#origin`
