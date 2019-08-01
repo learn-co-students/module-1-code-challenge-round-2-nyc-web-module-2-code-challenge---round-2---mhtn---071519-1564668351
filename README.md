@@ -3,6 +3,7 @@
 To Start:
  - run `bundle install`
  - run `rake db:migrate`
+ - run `rake db:seed`
 
 ## Deliverables
 
