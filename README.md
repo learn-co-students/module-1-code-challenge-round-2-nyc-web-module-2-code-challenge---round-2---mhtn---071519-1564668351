@@ -21,30 +21,41 @@ Flight:
 
   `Flight#duration`
     - returns the flight's duration as an integer
+    
   `Flight#origin`
     - returns the flight's origin as a string
+    
   `Flight#destination`
     - returns the flight's destination as a string
+    
   `Flight#passengers` 
     - returns an array of all the passenger instances that are associated with the the flight
+    
   `Flight#plane`
     - returns the instance of the plane that is associated with the flight
+    
   `Flight#tickets`
     - returns an array of all ticket instances associated with the flight
+    
   `Flight#total_passengers`
     - returns the total sum of number of passengers associated with the flight as an integer
 
 Passenger:
 - has a name
 - has many Flights 
+
   `Passenger#name`
     - returns the passenger's name as a string
+    
   `Passenger#flights`
     - returns an array of all flight instances associated with the passenger
+    
   `Passenger#tickets`
     - returns an array of all ticket instances associated with the passenger
+    
   `Passenger#planes`
-    - returns an array of all plane instances associated with the passenger 
+    - returns an array of all plane instances associated with the passenger
+    
   `Passenger#total_flight_time`
     - returns the total sum of the duration for each flight associated with the passenger as an integer 
 
@@ -52,20 +63,26 @@ Plane:
 - has a name 
 - has a num_of_seats
 - has many flights
+
   `Plane#name`
     - returns the planes's name as a string
+    
   `Plane#num_of_seats`
     - returns the plane's num_of_seats as an integer
+    
   `Plane#flights`
     - returns an array of all flight instances associated with the plane
+    
   `Plane#passengers`
     - returns an array of all passenger instances associated with the plane
+    
   `Plane#total_passengers`
     - returns the total sum of number of passengers associated with this plane as an integer 
 
   *When you have completed your app you will need to answer the questions below to help out any new developers joining your team. Please write a short response answering in your own words*
 
 ## Complete the questions below: 
+
   Which tables have foreign keys?
     Answer Here:
 
