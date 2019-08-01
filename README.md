@@ -84,13 +84,17 @@ Plane:
 ## Complete the questions below: 
 
   Which tables have foreign keys?
+  
     Answer Here:
 
   What gives us the ability to call the `Passenger#flights` method? 
+  
     Answer Here:
 
   When would you need a join table?
+  
     Answer Here:
 
   What is the join table in this application?
+  
     Answer Here:
