@@ -43,6 +43,7 @@ Flight:
 Passenger:
 - has a name
 - has many Flights 
+- has many Tickets
 
   `Passenger#name`
     - returns the passenger's name as a string
@@ -85,16 +86,22 @@ Plane:
 
   Which tables have foreign keys?
   
-    Answer Here:
+    Answer Here: 
+    The join tables will have foreign keys. 
+    For example example:
+      1)Ticket has foreign key of passenger_id and Flight_id
+      2)Flight has foreign key of plane_id
 
   What gives us the ability to call the `Passenger#flights` method? 
   
-    Answer Here:
+    Answer Here: There needs to be a join table. In my example, I have Ticket that belongs to passenger and flights
 
   When would you need a join table?
   
-    Answer Here:
+    Answer Here: When there is a many to many relationship, join table is needed.
 
   What is the join table in this application?
   
-    Answer Here:
+    Answer Here: In my example: 
+      1)Ticket has foreign key of passenger_id and Flight_id
+      2)Flight has foreign key of plane_id
