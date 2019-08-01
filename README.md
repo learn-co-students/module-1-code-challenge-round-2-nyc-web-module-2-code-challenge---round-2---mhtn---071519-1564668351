@@ -11,47 +11,57 @@ Congratulations! You've just been hired to work on a special project for JFK Air
 
 *If you have properly completed the app you should be able to run `rake db:seed` without error. Remember the app is not complete. IF you run `rake db:seed` right now it will give you an error. It is your job to read the given code and make any necessary changes to establish the proper database, models, and relationships so that your app is be able to do the following:*
 
-Flight:
-  Flight#duration
+Flight: 
+- has a duration
+- has a destination
+- has an origin
+- belongs to Plane
+- has many Passengers
+  `Flight#duration`
     - returns the flight's duration as an integer
-  Flight#origin
+  `Flight#origin`
     - returns the flight's origin as a string
-  Flight#destination
+  `Flight#destination`
     - returns the flight's destination as a string
-  Flight#passengers 
+  `Flight#passengers` 
     - returns an array of all the passenger instances that are associated with the the flight
-  Flight#plane
+  `Flight#plane`
     - returns the instance of the plane that is associated with the flight
-  Flight#tickets
+  `Flight#tickets`
     - returns an array of all ticket instances associated with the flight
-  Flight#total_passengers
+  `Flight#total_passengers`
     - returns the total sum of number of passengers associated with the flight as an integer
 
 Passenger:
-  Passenger#name
+- has a name
+- has many Flights 
+  `Passenger#name`
     - returns the passenger's name as a string
-  Passenger#flights
+  `Passenger#flights`
     - returns an array of all flight instances associated with the passenger
-  Passenger#tickets
+  `Passenger#tickets`
     - returns an array of all ticket instances associated with the passenger
-  Passenger#flights
+  `Passenger#flights`
     - returns an array of all flight instances associated with the passenger
-  Passenger#planes
+  `Passenger#planes`
     - returns an array of all plane instances associated with the passenger 
-  Passenger#total_flight_time
+  `Passenger#total_flight_time`
     - returns the total sum of the duration for each flight associated with the passenger as an integer 
 
 Plane:
-  Plane#name
+- has a name 
+- has a num_of_seats
+- has many flights
+  `Plane#name`
     - returns the planes's name as a string
-  Plane#num_of_seats
+  `Plane#num_of_seats`
     - returns the plane's num_of_seats as an integer
-  Plane#flights
+  `Plane#flights`
     - returns an array of all flight instances associated with the plane
-  Plane#passengers
+  `Plane#passengers`
     - returns an array of all passenger instances associated with the plane
-  Plane#total_passengers
-    returns the total sum of number of passengers associated with this plane as an integer 
+  `Plane#total_passengers`
+    - returns the total sum of number of passengers associated with this plane as an integer 
 
   *When you have completed your app you will need to answer the questions below to help out any new developers joining your team. Please write a short response answering in your own words*
 
