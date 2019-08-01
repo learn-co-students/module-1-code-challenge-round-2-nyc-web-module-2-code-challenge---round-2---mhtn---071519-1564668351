@@ -19,7 +19,7 @@ def seed
 p1 = Passenger.create(name: "Tashawn")
 p2 = Passenger.create(name: "Ali")
 p3 = Passenger.create(name: "Ian")
-#
+
 pl1 = Plane.create(name: "Boeing 757", num_of_seats: 100)
 pl2 = Plane.create(name: "Airbus", num_of_seats: 45)
 pl3 = Plane.create(name: "Jet", num_of_seats: 25)
