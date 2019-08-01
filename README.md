@@ -43,8 +43,6 @@ Passenger:
     - returns an array of all flight instances associated with the passenger
   `Passenger#tickets`
     - returns an array of all ticket instances associated with the passenger
-  `Passenger#flights`
-    - returns an array of all flight instances associated with the passenger
   `Passenger#planes`
     - returns an array of all plane instances associated with the passenger 
   `Passenger#total_flight_time`
